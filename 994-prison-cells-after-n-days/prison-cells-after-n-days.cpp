@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> prisonAfterNDays(vector<int>& res, int n) {
-        vector<int> tmp(8);
+        vector<int> tmp(8,0);
         vector<vector<int>> seen;
         while (n--) {
             for (int i = 1; i < 7; i++) {
